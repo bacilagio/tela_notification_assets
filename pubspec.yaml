@@ -1,0 +1,15 @@
+name: tela_notification_assets
+description: Android notification drawable resource provider for Tela app.
+version: 1.0.0
+publish_to: "none"
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.tela.notification_assets
+        pluginClass: TelaNotificationAssetsPlugin
